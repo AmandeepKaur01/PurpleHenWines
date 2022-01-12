@@ -1,9 +1,13 @@
 'use strict';
 
+
 var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
-    sass = require('gulp-sass'),
     clean = require('gulp-clean');
+
+
+const sass = require('gulp-sass')(require('sass'));
+
 
 gulp.task('clean-css', function () {
   return gulp.src('./css/*.*', {read: false})
@@ -22,3 +26,5 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', gulp.series(['watch']));
+  
+

@@ -1,4 +1,4 @@
-name: lecapi
+name: purplehenwines
 recipe: drupal9
 config:
   webroot: web
@@ -35,12 +35,12 @@ tooling:
     dir: /app/web/themes/custom/legin
     cmd: gulp sass
 services:
-  solr:
-    type: solr:7.7
-    portforward: true
-    core: drupal
-    config:
-      dir: .platform/configsets/solr7
+  #solr:
+    #type: solr:7.7
+    #portforward: true
+    #core: drupal
+    #config:
+      #dir: .platform/configsets/solr7
   phpmyadmin:
     type: phpmyadmin
     hosts:
@@ -49,6 +49,6 @@ services:
     type: node
     globals:
       gulp-cli: latest
-  elasticsearch:
-    type: elasticsearch:7.9.3
-    portforward: true
+  #elasticsearch:
+    #type: elasticsearch:7.9.3
+    #portforward: true

@@ -51,4 +51,4 @@ $settings['skip_permissions_hardening'] = TRUE;
 $config['stage_file_proxy.settings']['origin'] = 'https://content.lilengine.co';
 $config['stage_file_proxy.settings']['hotlink'] = TRUE;
 
-$settings['trusted_host_patterns'] = ['^lecapi\.lndo\.site$', '^localhost$'];
+$settings['trusted_host_patterns'] = ['^purplehenwines\.lndo\.site$', '^localhost$'];
