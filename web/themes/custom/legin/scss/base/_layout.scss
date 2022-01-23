@@ -1,8 +1,8 @@
 .container {
-  padding: rem(16px);
+  padding: 16px;
 
   @include miw($lg) {
-    max-width: rem($container);
+    max-width: $container;
     margin: 0 auto;
   }
 }
@@ -11,5 +11,5 @@ ul.menu a.is-active {
 }
 
 body {
-  background: red !important;
+  background: green !important;
 }

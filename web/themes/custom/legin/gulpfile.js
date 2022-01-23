@@ -4,8 +4,6 @@
 var gulp = require('gulp'),
     autoprefixer = require('gulp-autoprefixer'),
     clean = require('gulp-clean');
-
-
 const sass = require('gulp-sass')(require('sass'));
 
 
